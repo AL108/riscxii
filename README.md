@@ -2,7 +2,7 @@
 
 ## Overview
 
-Riscxii is a virtual machine developed as a personal project for a Systems Programming course. This project was an journey into the intricacies of system-level programming, completed over a span of about a week.
+Riscxii is a virtual machine developed as a personal project for a Systems Programming course. This project was a journey into the intricacies of system-level programming, completed over a span of about a week.
 
 ## Features
 
