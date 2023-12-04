@@ -1,0 +1,26 @@
+
+vr_dump_pc1_basic/vr_dump_pc1_basic:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <_start>:
+   0:	7ff00113          	li	sp,2047
+   4:	020000ef          	jal	ra,24 <main>
+   8:	000017b7          	lui	a5,0x1
+   c:	80078623          	sb	zero,-2036(a5) # 80c <ADDR_END+0xc>
+
+00000010 <dump_pc>:
+  10:	00000713          	li	a4,0
+  14:	000017b7          	lui	a5,0x1
+  18:	82078793          	addi	a5,a5,-2016 # 820 <ADDR_END+0x20>
+  1c:	00e78023          	sb	a4,0(a5)
+  20:	00008067          	ret
+
+00000024 <main>:
+  24:	00000713          	li	a4,0
+  28:	000017b7          	lui	a5,0x1
+  2c:	82078793          	addi	a5,a5,-2016 # 820 <ADDR_END+0x20>
+  30:	00e78023          	sb	a4,0(a5)
+  34:	00000513          	li	a0,0
+  38:	00008067          	ret

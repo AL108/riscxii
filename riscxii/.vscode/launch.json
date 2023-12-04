@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/alien/Desktop/learn/uni/vm-riskxvii/vm_riskxvii",
+            "args": [
+                // "/home/alien/Downloads/hello_world.mi"
+                "/home/alien/Desktop/learn/uni/vm-riskxvii/testing/test_programs/lb/lb.mi"
+                // "/home/alien/Desktop/learn/uni/vm-riskxvii/testing/test_programs/hb3_request_too_big/hb3_request_too_big.mi"
+                // "/home/alien/Desktop/learn/uni/vm-riskxvii/testing/test_programs/mi_and_src/add/add.mi"
+                // "/home/alien/Desktop/learn/uni/vm-riskxvii/testing/test_programs/mi_and_src/lui/lui.mi"
+                // "/home/alien/Desktop/learn/uni/vm-riskxvii/testing/test_programs/mi_and_src/basic_heap_test1/basic_heap_test1.mi"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

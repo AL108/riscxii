@@ -1,0 +1,38 @@
+
+beq/beq:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <_start>:
+   0:	7ff00113          	li	sp,2047
+   4:	048000ef          	jal	ra,4c <main>
+   8:	000017b7          	lui	a5,0x1
+   c:	80078623          	sb	zero,-2036(a5) # 80c <ADDR_END+0xc>
+
+00000010 <print_sint>:
+  10:	000017b7          	lui	a5,0x1
+  14:	80478793          	addi	a5,a5,-2044 # 804 <ADDR_END+0x4>
+  18:	00a79023          	sh	a0,0(a5)
+  1c:	00008067          	ret
+
+00000020 <beq_test>:
+  20:	00b50c63          	beq	a0,a1,38 <beq_test+0x18>
+  24:	00000713          	li	a4,0
+  28:	000017b7          	lui	a5,0x1
+  2c:	80478793          	addi	a5,a5,-2044 # 804 <ADDR_END+0x4>
+  30:	00e79023          	sh	a4,0(a5)
+  34:	00008067          	ret
+  38:	00100713          	li	a4,1
+  3c:	000017b7          	lui	a5,0x1
+  40:	80478793          	addi	a5,a5,-2044 # 804 <ADDR_END+0x4>
+  44:	00e79023          	sh	a4,0(a5)
+  48:	00008067          	ret
+
+0000004c <main>:
+  4c:	00100713          	li	a4,1
+  50:	000017b7          	lui	a5,0x1
+  54:	80478793          	addi	a5,a5,-2044 # 804 <ADDR_END+0x4>
+  58:	00e79023          	sh	a4,0(a5)
+  5c:	00000513          	li	a0,0
+  60:	00008067          	ret

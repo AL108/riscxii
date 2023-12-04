@@ -1,0 +1,28 @@
+File 'source_files/al_inst.c'
+Lines executed:80.30% of 66
+Creating 'al_inst.c.gcov'
+
+File 'source_files/inst_processing.c'
+Lines executed:68.42% of 285
+Creating 'inst_processing.c.gcov'
+
+File 'source_files/mem.c'
+Lines executed:82.18% of 101
+Creating 'mem.c.gcov'
+
+File 'source_files/mem_inst.c'
+Lines executed:67.29% of 107
+Creating 'mem_inst.c.gcov'
+
+File 'source_files/prog_inst.c'
+Lines executed:35.00% of 60
+Creating 'prog_inst.c.gcov'
+
+File 'source_files/vm_riskxvii.c'
+Lines executed:81.82% of 11
+Creating 'vm_riskxvii.c.gcov'
+
+File 'source_files/vr.c'
+Lines executed:83.91% of 87
+Creating 'vr.c.gcov'
+
