@@ -8,7 +8,7 @@ Riscxii is a virtual machine developed as a personal project for a Systems Progr
 
 - RV32I Instruction Set Architecture: 
 Implements a substantial subset of the RV32I ISA, enabling the execution of a wide range of binaries compatible with this architecture.
-- Execution and Output: The virtual machine accepts a binary file's filepath as an argument and executes it, with outputs directed to stdout, mimicking the expected behavior of a standard execution environment.
+- Execution and Output: The virtual machine accepts a binary and executes it, with outputs directed to stdout, mimicking the expected behavior of a standard execution environment.
 
 ## Getting Started
 
