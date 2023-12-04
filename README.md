@@ -15,9 +15,8 @@ Implements a substantial subset of the RV32I ISA, enabling the execution of a wi
 To use riscxii, follow these steps:
 
 - Clone the Repository
-- Compile the Virtual Machine
-- Run the Virtual Machine: ./riscxii [path/to/binary] (note there are plenty of test binaries in the testing folder)
-
+- Build the vm with the make command
+- Run the vm
 ## Testing
 
 A suite of input-output tests has been developed to validate each instruction's implementation. While the test suite covers a significant portion of the instructions, it remains a work in progress. Future updates may include additional tests to enhance the reliability of the virtual machine.
