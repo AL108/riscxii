@@ -15,7 +15,7 @@ Implements a substantial subset of the RV32I ISA, enabling the execution of a wi
 To use riscxii, follow these steps:
 
 - Clone the Repository
-- Build the vm with the make command (note: if you don't have gcovr installed, you may need to copy the makefile from 'Anothermakefile' in the root directory.
+- Build the vm with the make command (note: if you don't have gcovr installed, you may need to copy the makefile from 'Anothermakefile' in the root directory).
 - Run the vm
 ## Testing
 
